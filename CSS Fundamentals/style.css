@@ -1,0 +1,62 @@
+/* 2.add CSS */
+/* h1{
+    color: blue;
+} */
+
+
+/* 3.Basic Syntax */
+/* h1{
+    color: green;
+    font-size: 70px;
+} */
+
+
+/* 4.CSS Selector */
+/* - element-selctor */
+h1{
+    color: green;
+    font-size: 20px;
+}
+
+/* class-selector */
+.my-text-style{
+    color: red;
+    font-size: 20px;
+}
+
+/* id-selector */
+#my-id{
+    color: goldenrod;
+    font-size: 50;
+}
+
+/* universal selector */
+* {
+    color: cyan;
+    font-size: 50;
+}
+
+/* group-selector */
+h1,p,p2 {
+    color: brown;
+}
+
+
+/* 5.Background properties*/
+body{
+    /* background-color: aqua; */
+    background-image: url("/home/user/Downloads/53639.jpg");
+    background-repeat:no-repeat;
+    /* background-repeat:repeat-x; */
+    /* object-fit: cover; */
+    background-position: center;
+    /* background-position: right; */
+    background-attachment: fixed;
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-size: auto;
+
+}
+
+
+/* 6.Border Properties */
