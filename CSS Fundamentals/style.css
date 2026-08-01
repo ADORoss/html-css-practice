@@ -32,7 +32,8 @@ h1{
 
 /* universal selector */
 * {
-    color: cyan;
+    /* color: cyan; */
+    color: black;
     font-size: 50;
 }
 
@@ -45,7 +46,7 @@ h1,p,p2 {
 /* 5.Background properties*/
 body{
     /* background-color: aqua; */
-    background-image: url("/home/user/Downloads/53639.jpg");
+    /* background-image: url("/home/user/Downloads/53639.jpg"); */
     background-repeat:no-repeat;
     /* background-repeat:repeat-x; */
     /* object-fit: cover; */
@@ -60,3 +61,76 @@ body{
 
 
 /* 6.Border Properties */
+h1{
+    /* border-style: none; */
+    /* border-style: dashed; */
+    /* border-style: dotted; */
+    border-style: solid;
+    /* border-style: double; */
+    /* border-style: groove; */
+    /* border-style: ridge; */
+    /* border-style: inset; */
+    /* border-style: outset; */
+    /* border-style: hidden; */
+}
+
+
+/* 7.Border Radius */
+/* .my-div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 10px 10px 10px 10px;
+    border-radius: 40px 1px 40px 1px;
+} */
+
+
+/* 8.CSS Display Property */
+/*p{*/
+    /* display: block; */
+    /* display: inline-block; */
+    /* display: inline; */
+    /* display: run-in; */
+    /* display: none; */
+/*}*/
+
+
+/* 9.CSS Cursor Properties */
+/* check html tag css inline */
+
+
+/* 10.CSS Float Property */
+/* img{ */
+     /* float: right;  */
+    /* float: left; */
+    /* float: initial; */
+    /* float: inherit; */
+/* } */
+
+
+/* 11.CSS Font */
+p{
+    font-size: 60px;
+    font-weight:900;
+    /* font-variant: small-caps; */
+    color: blue;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* 12.CSS Hover */
+.my-btn{
+    background-color: red;
+    border-radius: 6px;
+    color: white;
+    padding: 30px;
+
+}
+
+.my-btn:hover{
+    background-color: green;
+}
+
+
+/* 13.CSS Important */
