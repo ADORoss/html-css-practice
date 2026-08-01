@@ -128,9 +128,33 @@ p{
 
 }
 
-.my-btn:hover{
+/* .my-btn:hover{
     background-color: green;
-}
+} */
 
 
 /* 13.CSS Important */
+.my-btn{
+    background-color: black !important;
+    border-radius: 6px;
+    color: white;
+    padding: 30px;
+
+}
+
+.my-btn{
+    background-color: green;
+    border-radius: 6px;
+    color: white;
+    padding: 30px;
+
+}
+
+
+/* 14.CSS Line Height */
+p{
+    /* line-height: 70%; */    /* abnormal */
+    /* line-height: 100%; */
+    line-height: 200%;
+}
+
