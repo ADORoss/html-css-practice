@@ -183,3 +183,24 @@ button{
 
 
 /* 17.CSS Filter */
+img{
+    width: 600px;
+    height: auto;
+    /* filter: brightness(300%); */
+    /* filter: brightness(20%); */
+    filter: brightness(100%);     /* default */
+    /* filter: blur(5px); */
+    /* filter: invert(20); */
+    /* filter: invert(1000); */
+    /* filter: saturate(-10); */
+    /* filter: contrast(300%); */
+    /* filter: opacity(40%); */
+    /* filter: hue-rotate(200deg); */
+    /* filter: grayscale(130%); */
+    /* filter: sepia(90%); */
+    filter: drop-shadow(10px 20px 30px yellow);
+
+}
+
+
+/* 18.CSS Overflow */
