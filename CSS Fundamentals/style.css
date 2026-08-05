@@ -13,34 +13,34 @@
 
 /* 4.CSS Selector */
 /* - element-selctor */
-h1{
+/* h1{
     color: green;
     font-size: 20px;
-}
+} */
 
 /* class-selector */
-.my-text-style{
+/* .my-text-style{
     color: red;
     font-size: 20px;
-}
+} */
 
 /* id-selector */
-#my-id{
+/* #my-id{
     color: goldenrod;
     font-size: 50;
-}
+} */
 
 /* universal selector */
-* {
+/* * { */
     /* color: cyan; */
-    color: black;
-    font-size: 50;
-}
+    /* color: black; */
+    /* font-size: 50; */
+/* } */
 
 /* group-selector */
-h1,p,p2 {
+/* h1,p,p2 {
     color: brown;
-}
+} */
 
 
 /* 5.Background properties*/
@@ -61,18 +61,18 @@ body{
 
 
 /* 6.Border Properties */
-h1{
+/* h1{ */
     /* border-style: none; */
     /* border-style: dashed; */
     /* border-style: dotted; */
-    border-style: solid;
+    /* border-style: solid; */
     /* border-style: double; */
     /* border-style: groove; */
     /* border-style: ridge; */
     /* border-style: inset; */
     /* border-style: outset; */
     /* border-style: hidden; */
-}
+/* } */
 
 
 /* 7.Border Radius */
@@ -109,14 +109,14 @@ h1{
 
 
 /* 11.CSS Font */
-p{
+/* p{
     font-size: 60px;
     font-weight:900;
-    /* font-variant: small-caps; */
+    font-variant: small-caps;
     color: blue;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
+} */
 
 
 /* 12.CSS Hover */
@@ -152,23 +152,24 @@ p{
 
 
 /* 14.CSS Line Height */
-p{
+/* p{ */
     /* line-height: 70%; */    /* abnormal */
     /* line-height: 100%; */
-    line-height: 200%;
-}
+    /* line-height: 200%; */
+/* } */
 
 
 /* 15.CSS Margin */
-p{
+/* p{ */
     /* margin-left: 30px; */
     /* margin: 80px; */
     /* margin-top: 80px; */
     /* margin-bottom: 80px; */
     /* margin-right: 80px; */
     /* margin-left: 80px; */
-    margin: 50px 240px 30px 20px;    /* top right bottom left */
-}
+    /* margin: 50px 240px 30px 20px; */
+    /* top right bottom left */
+/* } */
 
 
 /* 16.CSS Padding */
@@ -204,3 +205,47 @@ img{
 
 
 /* 18.CSS Overflow */
+/* p{ */
+    /* height: 300px; */
+    /* width: 300px; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+/* } */
+
+/* div{ */
+    /* height: 300px; */
+    /* width: 300px; */
+    /* overflow: auto; */
+    /* overflow-x: hidden; */
+    /* overflow-y: scroll; */
+/* } */
+
+
+/* 19.CSS Position */
+.my-position{
+    /* position: fixed; */
+    /* position: relative; */
+    position: absolute;
+    color: red;
+    right: 100px;
+    left: 100px;
+    top: 100px;
+}
+
+
+/* CSS Word Wrap */
+div{
+    width: 150px;
+    border: 1px solid red;
+    /* word-wrap: normal; */
+}
+div.a{
+    word-wrap: normal;
+}
+div.b{
+    word-wrap: break-word;
+}
+
+
+/* 21.CSS Justify content */
