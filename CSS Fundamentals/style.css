@@ -44,20 +44,20 @@
 
 
 /* 5.Background properties*/
-body{
+/* body{ */
     /* background-color: aqua; */
     /* background-image: url("/home/user/Downloads/53639.jpg"); */
-    background-repeat:no-repeat;
+    /* background-repeat:no-repeat; */
     /* background-repeat:repeat-x; */
     /* object-fit: cover; */
-    background-position: center;
+    /* background-position: center; */
     /* background-position: right; */
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     /* background-size: cover; */
     /* background-size: contain; */
-    background-size: auto;
+    /* background-size: auto; */
 
-}
+/* } */
 
 
 /* 6.Border Properties */
@@ -120,13 +120,13 @@ body{
 
 
 /* 12.CSS Hover */
-.my-btn{
+/* .my-btn{
     background-color: red;
     border-radius: 6px;
     color: white;
     padding: 30px;
 
-}
+} */
 
 /* .my-btn:hover{
     background-color: green;
@@ -134,7 +134,7 @@ body{
 
 
 /* 13.CSS Important */
-.my-btn{
+/* .my-btn{
     background-color: black !important;
     border-radius: 6px;
     color: white;
@@ -148,7 +148,7 @@ body{
     color: white;
     padding: 30px;
 
-}
+} */
 
 
 /* 14.CSS Line Height */
@@ -174,22 +174,22 @@ body{
 
 /* 16.CSS Padding */
 /* outer space is margin and inner space is padding */
-button{
+/* button{ */
     /* margin: 100px; */
-    margin: 70px;
+    /* margin: 70px; */
     /* padding: 20px; */
     /* padding-left: 20px; */
-    padding: 40px 2px 100px 20px;    /* top right bottom left */
-}
+    /* padding: 40px 2px 100px 20px;    top right bottom left */
+/* } */
 
 
 /* 17.CSS Filter */
-img{
-    width: 600px;
-    height: auto;
+/* img{ */
+    /* width: 600px; */
+    /* height: auto; */
     /* filter: brightness(300%); */
     /* filter: brightness(20%); */
-    filter: brightness(100%);     /* default */
+    /* filter: brightness(100%);     default */
     /* filter: blur(5px); */
     /* filter: invert(20); */
     /* filter: invert(1000); */
@@ -199,9 +199,9 @@ img{
     /* filter: hue-rotate(200deg); */
     /* filter: grayscale(130%); */
     /* filter: sepia(90%); */
-    filter: drop-shadow(10px 20px 30px yellow);
+    /* filter: drop-shadow(10px 20px 30px yellow); */
 
-}
+/* } */
 
 
 /* 18.CSS Overflow */
@@ -223,29 +223,71 @@ img{
 
 
 /* 19.CSS Position */
-.my-position{
+/* .my-position{ */
     /* position: fixed; */
     /* position: relative; */
-    position: absolute;
-    color: red;
-    right: 100px;
-    left: 100px;
-    top: 100px;
-}
+    /* position: absolute; */
+    /* color: red; */
+    /* right: 100px; */
+    /* left: 100px; */
+    /* top: 100px; */
+/* } */
 
 
 /* CSS Word Wrap */
-div{
+/* div{
     width: 150px;
     border: 1px solid red;
-    /* word-wrap: normal; */
+    word-wrap: normal;
 }
 div.a{
     word-wrap: normal;
 }
 div.b{
     word-wrap: break-word;
-}
+} */
 
 
 /* 21.CSS Justify content */
+/* .test{ */
+    /* display: flex; */
+    /* justify-content:space-evenly; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+
+/* } */
+
+
+/* 22.CSS text decoration */
+/* p{ */
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: overline; */
+    /* text-decoration: overline underline line-through; */
+/* } */
+
+
+/* 23.CSS Word and letter spacing */
+/* p{ */
+    /* letter-spacing: normal; */
+    /* letter-spacing: 20px; */
+    /* letter-spacing: -2px; */
+    /* word-spacing: normal; */
+    /* word-spacing: 30px; */
+    /* word-spacing: -10px; */
+/* } */
+
+
+/* 24.CSS Variables */
+:root{
+    --colorPrimary:#22ff
+    --fontPrimary:20px
+}
+
+p{
+    color: var(--colorPrimary);
+    font-size: var(--colorPrimary);
+}
